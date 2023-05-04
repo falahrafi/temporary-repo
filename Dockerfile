@@ -1,3 +1,3 @@
-FROM php:7.4-cli
+FROM php:7.0-apache  
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
